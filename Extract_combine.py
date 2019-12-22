@@ -82,8 +82,8 @@ if __name__ == "__main__":
                 for elem in row:
                     if elem == "" or elem == "-":
                         flag = 1
-                if flag != 1:
-                    wr.writerow(row)
+                    if flag != 1:
+                        wr.writerow(row)
                     
     data_2013 = data_combine(2013, 600)
     data_2014 = data_combine(2014, 600)
